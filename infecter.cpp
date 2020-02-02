@@ -68,7 +68,7 @@ int infecter(vector< vector<int> > &adj, vector<bool> &Z, int V)
 	vector<bool> Nx(V);
 	int sum = 0;
 	int k = 0;
-	//Add neighbours of current vertexes to Z
+	//Add neighbours of current vertices to Z
 	for (int i = 0; i < V; i++)
 	{
 		if (Z[i])
